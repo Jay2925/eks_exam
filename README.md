@@ -1,8 +1,13 @@
 Explain (1-2 sentences) how to run and test your solution: (readme)
+
 get all code in your vs code 
+
 change SSH key name and region you want to use 
+
 hit terraform init , plan , apply 
+
 then you can update kubeconfig file using below command 
+
 aws eks --region us-east-1 update-kubeconfig --name exam_eks
 
 ////////////////////////////
